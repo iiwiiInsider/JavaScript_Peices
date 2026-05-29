@@ -1,0 +1,71 @@
+class Frog {
+
+    // These fields represent the internal state of each Frog object.
+    // Marking them 'private' enforces encapsulation, meaning outside code
+    // cannot directly access or modify them. This protects the object's integrity.
+    private String name;
+    private int age;
+
+    // -----------------------------
+    // SETTER METHODS (Mutators)
+    // -----------------------------
+
+    // Allows controlled modification of the 'name' field.
+    // Using a setter lets you add validation later (e.g., reject empty names).
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
+    // Allows controlled modification of the 'age' field.
+    // Setters are useful for enforcing rules like "age cannot be negative".
+    public void setAge(int newAge) {
+        this.age = newAge;
+    }
+
+    // -----------------------------
+    // CONSTRUCTOR
+    // -----------------------------
+
+    // The constructor runs automatically when a new Frog object is created.
+    // It ensures the object starts with valid initial values.
+    // 'this.name' refers to the object's field, while 'name' is the parameter.
+    public Frog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // -----------------------------
+    // GETTER METHODS (Accessors)
+    // -----------------------------
+
+    // Returns the current value of 'name'.
+    // Getters allow read-only access to private fields.
+    public String getName() {
+        return name;
+    }
+
+    // Returns the current value of 'age'.
+    public int getAge() {
+        return age;
+    }
+}
+
+public class App {
+    public static void main(String[] args) {
+
+        // Create a new Frog object using the constructor.
+        // The frog starts with the initial values "Bertie" and 1.
+        Frog frog1 = new Frog("Bertie", 1);
+
+        // Update the frog's name and age using setter methods.
+        // This demonstrates encapsulation: we modify private fields safely.
+        //frog1.setName("Jack");
+        //frog1.setAge(2);
+
+        // Print the frog's name with a custom message.
+        //System.out.println("My frog is named: " + frog1.getName());
+
+        // Print the frog's age with a custom message.
+        System.out.println("Age of frog " + frog1.getName() + " is " + frog1.getAge() + ".");
+    }
+}

@@ -1,0 +1,56 @@
+class Frog {
+
+    // These fields store the state of each Frog object.
+    // 'private' enforces encapsulation, meaning only methods inside this class
+    // can directly access or modify these values.
+    private String name;
+    private int age;
+
+    // -----------------------------
+    // SETTER METHODS (Mutators)
+    // -----------------------------
+
+    // This method allows controlled modification of the 'name' field.
+    // Using a setter instead of direct access lets you add validation later
+    // (e.g., preventing empty names).
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
+    // Same idea as setName: this method updates the 'age' field.
+    // Setters are useful when you want to enforce rules like:
+    // "Age cannot be negative" or "Age must be realistic".
+    public void setAge(int newAge) {
+        this.age = newAge;
+    }
+
+    // -----------------------------
+    // CONSTRUCTOR
+    // -----------------------------
+
+    // A constructor is called automatically when you create a new Frog object.
+    // It ensures the object starts with valid initial values.
+    // 'this.name' refers to the object's field, while 'name' is the parameter.
+    public Frog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // -----------------------------
+    // GETTER METHODS (Accessors)
+    // -----------------------------
+
+    // Getter returns the current value of 'name'.
+    // Getters allow read-only access while still keeping fields private.
+    public String getName() {
+        return name;
+    }
+
+    // Getter for 'age'. Same purpose as getName.
+    public int getAge() {
+        return age;
+    }
+}
+
+public class App {
+    public static void

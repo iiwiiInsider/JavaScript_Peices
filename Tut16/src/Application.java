@@ -12,7 +12,6 @@ class Robot {
 	public void move(String direction, double distance) {
 		System.out.println("Moving " + distance + " meters in direction " + direction);
 	}
-	
 }
 
 public class Application {
@@ -29,5 +28,4 @@ public class Application {
 		int value = 14;
 		sam.jump(value);
 	}
-	
 }
