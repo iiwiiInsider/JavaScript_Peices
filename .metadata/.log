@@ -152,3 +152,105 @@ Binding(ALT+SHIFT+ARROW_UP,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+
+!ENTRY org.eclipse.core.resources 2 2 2026-05-29 12:17:34.818
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:17:34.818
+!MESSAGE The project description file (.project) for 'Tut16' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:17:34.818
+!MESSAGE The project description file (.project) for 'Tutorial15' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:17:34.818
+!MESSAGE The project description file (.project) for 'Tutorial17' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2026-05-29 12:18:57.647
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'JavaExperienceTutorial2' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'JavaExpreienceTutorial1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tut10' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tut12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tut13' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tut6' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tut9' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tutorial11' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tutorial12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tutorial14' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tutorial4' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tutorial5' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tutorial7' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:18:57.647
+!MESSAGE The project description file (.project) for 'Tutorial8' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2026-05-29 12:19:41.284
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'JavaExperienceTutorial2' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'JavaExpreienceTutorial1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tut10' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tut12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tut13' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tut6' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tut9' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tutorial11' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tutorial12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tutorial14' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tutorial4' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tutorial5' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tutorial7' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:19:41.284
+!MESSAGE The project description file (.project) for 'Tutorial8' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2026-05-29 12:20:39.737
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'JavaExperienceTutorial2' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'JavaExpreienceTutorial1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tut10' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tut12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tut13' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tut6' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tut9' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tutorial11' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tutorial12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tutorial14' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tutorial4' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tutorial5' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tutorial7' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:20:39.737
+!MESSAGE The project description file (.project) for 'Tutorial8' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
