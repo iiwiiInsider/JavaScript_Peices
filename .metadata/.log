@@ -379,3 +379,247 @@ org.eclipse.swt.SWTException: Widget is disposed
 !MESSAGE The project description file (.project) for 'Tutorial7' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2026-05-29 12:28:12.481
 !MESSAGE The project description file (.project) for 'Tutorial8' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2026-05-29 12:34:27.254 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-05-29 12:34:29.758
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-29 12:34:34.736
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kdbbu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-05-29 12:39:41.707
+!MESSAGE An internal error occurred during: "Install download3".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verifyContent(SignatureVerifier.java:77)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verify(SignatureVerifier.java:59)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.close(SignatureVerifier.java:100)
+	at org.eclipse.equinox.internal.provisional.p2.artifact.repository.processing.ProcessingStep.close(ProcessingStep.java:85)
+	at org.eclipse.equinox.internal.p2.artifact.processors.md5.MD5Verifier.close(MD5Verifier.java:83)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.reportStatus(SimpleArtifactRepository.java:1183)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:591)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:723)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:287)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:267)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:208)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:138)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:707)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-05-29 12:39:41.809
+!MESSAGE An internal error occurred during: "Install download2".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:590)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:723)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:287)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:267)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:208)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:138)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:707)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-05-29 12:39:42.446
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-05-29 12:39:42.448
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.p2.operations.ProfileModificationJob
+!SESSION 2026-05-29 12:39:43.607 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-29 12:39:56.295
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kdbbu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2026-05-29 12:44:42.820
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\kdbbu\AppData\Local\Temp\epp.package.java_33ce6ac2cdc0_c0a8018dd3b9
+!SESSION 2026-05-29 12:47:28.510 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-29 12:47:43.333
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kdbbu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-05-29 13:03:26.731
+!MESSAGE An internal error occurred during: "File Transport Cancel Handler".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+	at java.util.HashMap$KeyIterator.next(Unknown Source)
+	at java.util.Collections$UnmodifiableCollection$1.next(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:251)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$3.cancel(HttpClientRetrieveFileTransfer.java:1016)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader$CancelHandler.run(FileReader.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2026-05-29 13:04:48.095
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2026-05-29 13:04:48.095
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.095
+!MESSAGE Software being installed: GitHub Copilot 0.18.0.202605200009 (com.microsoft.copilot.eclipse.feature.feature.group 0.18.0.202605200009)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.095
+!MESSAGE Missing requirement: com.microsoft.copilot.eclipse.core 0.18.0.202605200009 (com.microsoft.copilot.eclipse.core 0.18.0.202605200009) requires 'bundle org.eclipse.lsp4e 0.18.1' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:04:48.095
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.095
+!MESSAGE From: GitHub Copilot 0.18.0.202605200009 (com.microsoft.copilot.eclipse.feature.feature.group 0.18.0.202605200009)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.095
+!MESSAGE To: com.microsoft.copilot.eclipse.core [0.18.0.202605200009]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2026-05-29 13:04:48.102
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2026-05-29 13:04:48.102
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.102
+!MESSAGE Software being installed: GitHub Copilot 0.18.0.202605200009 (com.microsoft.copilot.eclipse.feature.feature.group 0.18.0.202605200009)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.102
+!MESSAGE Missing requirement: com.microsoft.copilot.eclipse.core 0.18.0.202605200009 (com.microsoft.copilot.eclipse.core 0.18.0.202605200009) requires 'bundle org.eclipse.lsp4e 0.18.1' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:04:48.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.102
+!MESSAGE From: GitHub Copilot 0.18.0.202605200009 (com.microsoft.copilot.eclipse.feature.feature.group 0.18.0.202605200009)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:04:48.102
+!MESSAGE To: com.microsoft.copilot.eclipse.core [0.18.0.202605200009]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2026-05-29 13:08:08.099
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2026-05-29 13:08:08.099
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE Software being installed: Language Server Protocol client for Eclipse IDE (Incubation) 0.18.1.202311121506 (org.eclipse.lsp4e 0.18.1.202311121506)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE Software currently installed: Eclipse IDE for Java Developers 2.0.2.20140224-0000 (epp.package.java 2.0.2.20140224-0000)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.099
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE Text Editor Framework 3.8.100.v20130514-1533 (org.eclipse.ui.workbench.texteditor 3.8.100.v20130514-1533)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE Text Editor Framework 3.8.101.v20130729-1318 (org.eclipse.ui.workbench.texteditor 3.8.101.v20130729-1318)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE Text Editor Framework 3.17.200.v20231106-1600 (org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE From: Eclipse IDE for Java Developers 2.0.2.20140224-0000 (epp.package.java 2.0.2.20140224-0000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE To: org.eclipse.epp.package.java.feature.feature.group [2.0.2.20140224-0000]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE From: EPP Java Package 2.0.2.20140224-0000 (org.eclipse.epp.package.java.feature.feature.group 2.0.2.20140224-0000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE To: org.eclipse.platform.feature.group [4.3.2.v20140221-1852]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE From: Language Server Protocol client for Eclipse IDE (Incubation) 0.18.1.202311121506 (org.eclipse.lsp4e 0.18.1.202311121506)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE To: bundle org.eclipse.ui.workbench.texteditor 3.16.700
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.099
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE From: Eclipse Platform 4.3.2.v20140221-1852 (org.eclipse.platform.feature.group 4.3.2.v20140221-1852)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.099
+!MESSAGE To: org.eclipse.ui.workbench.texteditor [3.8.101.v20130729-1318]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2026-05-29 13:08:08.107
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2026-05-29 13:08:08.107
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE Software being installed: Language Server Protocol client for Eclipse IDE (Incubation) 0.18.1.202311121506 (org.eclipse.lsp4e 0.18.1.202311121506)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE Software currently installed: Eclipse IDE for Java Developers 2.0.2.20140224-0000 (epp.package.java 2.0.2.20140224-0000)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.107
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE Text Editor Framework 3.8.100.v20130514-1533 (org.eclipse.ui.workbench.texteditor 3.8.100.v20130514-1533)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE Text Editor Framework 3.8.101.v20130729-1318 (org.eclipse.ui.workbench.texteditor 3.8.101.v20130729-1318)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE Text Editor Framework 3.17.200.v20231106-1600 (org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.107
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE From: Eclipse IDE for Java Developers 2.0.2.20140224-0000 (epp.package.java 2.0.2.20140224-0000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE To: org.eclipse.epp.package.java.feature.feature.group [2.0.2.20140224-0000]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.107
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE From: EPP Java Package 2.0.2.20140224-0000 (org.eclipse.epp.package.java.feature.feature.group 2.0.2.20140224-0000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE To: org.eclipse.platform.feature.group [4.3.2.v20140221-1852]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.107
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE From: Language Server Protocol client for Eclipse IDE (Incubation) 0.18.1.202311121506 (org.eclipse.lsp4e 0.18.1.202311121506)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE To: bundle org.eclipse.ui.workbench.texteditor 3.16.700
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-05-29 13:08:08.107
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE From: Eclipse Platform 4.3.2.v20140221-1852 (org.eclipse.platform.feature.group 4.3.2.v20140221-1852)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-05-29 13:08:08.107
+!MESSAGE To: org.eclipse.ui.workbench.texteditor [3.8.101.v20130729-1318]
+!SESSION 2026-05-29 13:12:52.163 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-29 13:13:02.364
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kdbbu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-05-29 13:19:35.477 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-29 13:19:42.724
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kdbbu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2026-05-29 13:19:46.244
+!MESSAGE Performing Marketplace install request from https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=6600208
