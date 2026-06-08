@@ -11104,3 +11104,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.lsp4e 2 0 2026-06-08 14:10:03.997
 !MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-08 14:10:17.294
+!MESSAGE [Info] Document is null for editor: App.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-08 14:10:17.295
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/JavaScript%20Peices/Tutorial22/src/App.java
