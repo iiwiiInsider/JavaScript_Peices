@@ -1,8 +1,27 @@
 INDEX VERSION 1.134+C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\.metadata\.plugins\org.eclipse.jdt.core
+1642536134.index
+2287467648.index
+324093397.index
 1865797976.index
+1124295326.index
+2499951800.index
+1703370312.index
 1520739681.index
 1932846052.index
+561600363.index
+3433509804.index
+173680289.index
+826654685.index
 3300929730.index
+2687323615.index
+3559423655.index
+3127728267.index
+2134493170.index
+2814522370.index
 996837931.index
 3282957531.index
+973652023.index
+3523817246.index
 1657330681.index
+300795519.index
+1165219157.index
