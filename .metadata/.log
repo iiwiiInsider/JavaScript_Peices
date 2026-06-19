@@ -8008,3 +8008,713 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-18 19:10:18.849
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2037/src/App2.java
+!SESSION 2026-06-19 12:55:51.334 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-19 12:55:59.670
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-19 12:56:01.903
+!MESSAGE Logback config file: C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY ch.qos.logback.classic 2 0 2026-06-19 12:56:02.205
+!MESSAGE Exception while setting up logging:C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\.metadata\.plugins\org.eclipse.m2e.logback.configuration
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\.metadata\.plugins\org.eclipse.m2e.logback.configuration
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1153)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.configureLogback(M2ELogbackConfigurator.java:101)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.lambda$0(M2ELogbackConfigurator.java:63)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator$1.run(M2ELogbackConfigurator.java:136)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 12:56:11.783
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 12:56:11.793
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-06-19 12:56:11.821
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kdbbu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 12:56:11.835
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.186
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.488.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.278
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'none',
+  noProxyCount: 0,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-19 12:56:15.280
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.334
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.462
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.464
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 189 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.469
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\kdbbu\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.472
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\kdbbu\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.472
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\kdbbu\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:15.990
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:16.562
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:16.563
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:16.564
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 12:56:16.576
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-19 12:56:16.884
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 12:56:24.031
+!MESSAGE [Info] Document is null for editor: App2.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 12:56:24.032
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2037/src/App2.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 13:21:17.493
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 14:44:30.487
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 14:44:31.753
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 14:44:31.920
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request ab140eff-bac9-4e4d-9bc8-eeec3129bc16 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 160.63709999993443ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 15:06:00.586
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 15:06:01.091
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 05e5582e-4f2e-463a-b61e-2eb34f6bbb14 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 499.4322999995202ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 15:17:44.412
+!MESSAGE [Info] Document is null for editor: App.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 15:17:44.413
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2038/src/App.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 15:20:43.028
+!MESSAGE [Info] Document is null for editor: Robot.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 15:20:43.029
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/Robot.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 15:27:08.094
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 15:27:08.567
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 47e82fc0-0198-47dc-9f7e-1948fe842717 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 470.8176000006497ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 15:48:12.075
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 15:48:12.633
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 2ad7e6d2-2e55-4899-814b-e76a09adf332 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 552.5591000001878ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:09:17.290
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:09:17.849
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 21b0d338-1c12-4f3f-91ee-d4851a51e7a2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 555.8252000007778ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:15:16.313
+!MESSAGE [Info] Document is null for editor: app.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:15:16.314
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/app.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:16:53.020
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for active in 340ms: gpt-5.3-codex
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-06-19 16:16:53.022
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[chat] No model configuration found for families: gpt-5.3-codex. Available models: [{"billing":{"restricted_to":["pro_plus","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":50000000000,"input_price":500000000000,"output_price":2500000000000}},"capabilities":{"family":"claude-opus-4.7","limits":{"max_context_window_tokens":264000,"max_non_streaming_output_tokens":16000,"max_output_tokens":64000,"max_prompt_tokens":200000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"adaptive_thinking":true,"max_thinking_budget":32000,"min_thinking_budget":1024,"parallel_tool_calls":true,"reasoning_effort":["low","medium","high","xhigh","max"],"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"claude-opus-4.7","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"powerful","model_picker_enabled":false,"model_picker_price_category":"high","name":"Claude Opus 4.7","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest Claude Opus 4.7 model from Anthropic. [Learn more about how GitHub Copilot serves Claude Opus 4.7](https://gh.io/copilot-claude-opus)."},"preview":false,"supported_endpoints":["/v1/messages","/chat/completions"],"vendor":"Anthropic","version":"claude-opus-4.7"},{"billing":{"restricted_to":["pro_plus","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":50000000000,"input_price":500000000000,"output_price":2500000000000}},"capabilities":{"family":"claude-opus-4.8","limits":{"max_context_window_tokens":264000,"max_non_streaming_output_tokens":16000,"max_output_tokens":64000,"max_prompt_tokens":200000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"adaptive_thinking":true,"max_thinking_budget":32000,"min_thinking_budget":1024,"parallel_tool_calls":true,"reasoning_effort":["low","medium","high","xhigh","max"],"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"claude-opus-4.8","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"powerful","model_picker_enabled":false,"model_picker_price_category":"high","name":"Claude Opus 4.8","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest Claude Opus 4.8 model from Anthropic. [Learn more about how GitHub Copilot serves Claude Opus 4.8](https://gh.io/copilot-claude-opus)."},"preview":false,"supported_endpoints":["/v1/messages","/chat/completions"],"vendor":"Anthropic","version":"claude-opus-4.8"},{"billing":{"restricted_to":["pro","pro_plus","individual_trial","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":30000000000,"input_price":300000000000,"output_price":1500000000000}},"capabilities":{"family":"claude-sonnet-4.6","limits":{"max_context_window_tokens":264000,"max_non_streaming_output_tokens":16000,"max_output_tokens":64000,"max_prompt_tokens":200000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":5,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"adaptive_thinking":true,"max_thinking_budget":32000,"min_thinking_budget":1024,"parallel_tool_calls":true,"reasoning_effort":["low","medium","high","max"],"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"claude-sonnet-4.6","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"versatile","model_picker_enabled":false,"model_picker_price_category":"medium","name":"Claude Sonnet 4.6","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest Claude Sonnet 4.6 model from Anthropic. [Learn more about how GitHub Copilot serves Claude Sonnet 4.6](https://gh.io/copilot-claude-opus)."},"preview":false,"supported_endpoints":["/chat/completions","/v1/messages"],"vendor":"Anthropic","version":"claude-sonnet-4.6"},{"billing":{"restricted_to":["edu","pro","pro_plus","individual_trial","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":20000000000,"input_price":200000000000,"output_price":1200000000000}},"capabilities":{"family":"gemini-3.1-pro-preview","limits":{"max_context_window_tokens":264000,"max_output_tokens":64000,"max_prompt_tokens":200000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":10,"supported_media_types":["image/jpeg","image/png","image/webp","image/heic","image/heif","application/pdf"]}},"object":"model_capabilities","supports":{"max_thinking_budget":32000,"min_thinking_budget":256,"parallel_tool_calls":true,"reasoning_effort":["low","medium","high"],"streaming":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gemini-3.1-pro-preview","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"powerful","model_picker_enabled":false,"model_picker_price_category":"medium","name":"Gemini 3.1 Pro","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest Gemini 3 Pro model from Google. [Learn more about how GitHub Copilot serves Gemini 3 Pro](https://docs.github.com/en/copilot/reference/ai-models/model-hosting#google-models)."},"preview":true,"supported_endpoints":["/chat/completions"],"vendor":"Google","version":"gemini-3.1-pro-preview"},{"billing":{"restricted_to":["pro","pro_plus","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":15000000000,"input_price":150000000000,"output_price":900000000000}},"capabilities":{"family":"gemini-3.5-flash","limits":{"max_context_window_tokens":264000,"max_output_tokens":64000,"max_prompt_tokens":200000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":10,"supported_media_types":["image/jpeg","image/png","image/webp","image/heic","image/heif","application/pdf"]}},"object":"model_capabilities","supports":{"max_thinking_budget":24000,"min_thinking_budget":256,"parallel_tool_calls":true,"reasoning_effort":["minimal","low","medium","high"],"streaming":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gemini-3.5-flash","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"lightweight","model_picker_enabled":false,"model_picker_price_category":"medium","name":"Gemini 3.5 Flash","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest Gemini 3.5 Flash model from Google. [Learn more about how GitHub Copilot serves Gemini 3.5 Flash](https://docs.github.com/en/copilot/reference/ai-models/model-hosting#google-models)."},"preview":false,"supported_endpoints":["/chat/completions"],"vendor":"Google","version":"gemini-3.5-flash"},{"billing":{"restricted_to":["pro","pro_plus","individual_trial","edu","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":7500000000,"input_price":75000000000,"output_price":450000000000}},"capabilities":{"family":"gpt-5.4-mini","limits":{"max_context_window_tokens":400000,"max_output_tokens":128000,"max_prompt_tokens":272000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"reasoning_effort":["none","low","medium","high","xhigh"],"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-5.4-mini","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"lightweight","model_picker_enabled":false,"model_picker_price_category":"low","name":"GPT-5.4 mini","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest GPT-5.4 mini model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5.4 mini](https://gh.io/copilot-openai)."},"preview":false,"supported_endpoints":["/responses","ws:/responses"],"vendor":"OpenAI","version":"gpt-5.4-mini"},{"billing":{"restricted_to":["pro","pro_plus","individual_trial","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":25000000000,"input_price":250000000000,"output_price":1500000000000}},"capabilities":{"family":"gpt-5.4","limits":{"max_context_window_tokens":400000,"max_output_tokens":128000,"max_prompt_tokens":272000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"reasoning_effort":["none","low","medium","high","xhigh"],"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-5.4","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"powerful","model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT-5.4","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest GPT-5.4 model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5.4](https://gh.io/copilot-openai)."},"preview":false,"supported_endpoints":["/responses","/chat/completions","ws:/responses"],"vendor":"OpenAI","version":"gpt-5.4"},{"billing":{"restricted_to":["pro_plus","business","enterprise","max"],"token_prices":{"batch_size":1000000,"cache_price":50000000000,"input_price":500000000000,"output_price":3000000000000}},"capabilities":{"family":"gpt-5.5","limits":{"max_context_window_tokens":400000,"max_output_tokens":128000,"max_prompt_tokens":272000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"reasoning_effort":["none","low","medium","high","xhigh"],"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-5.5","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"powerful","model_picker_enabled":false,"model_picker_price_category":"high","name":"GPT-5.5","object":"model","policy":{"state":"disabled","terms":"Enable access to the latest GPT-5.5 model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5.5](https://gh.io/copilot-openai)."},"preview":false,"supported_endpoints":["/responses","ws:/responses"],"vendor":"OpenAI","version":"gpt-5.5","warning_messages":[{"code":"model_degraded_github","message":"GPT-5.5 is currently experiencing issues. We are actively working to resolve the issue. In the meantime, you might want to use a different model."}]},{"billing":{"restricted_to":["free","edu","individual_trial","pro","pro_plus","max"],"token_prices":{"batch_size":1000000,"cache_price":7500000000,"input_price":75000000000,"output_price":450000000000}},"capabilities":{"family":"oswe-vscode-modelD","limits":{"max_context_window_tokens":256000,"max_output_tokens":128000,"max_prompt_tokens":128000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"reasoning_effort":["low","medium","high"],"streaming":true,"structured_outputs":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"mai-code-1-flash-secondary","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"versatile","model_picker_enabled":false,"model_picker_price_category":"low","name":"MAI-Code-1-Flash","object":"model","policy":{"state":"enabled","terms":""},"preview":false,"supported_endpoints":["/responses"],"vendor":"Microsoft","version":"mai-code-1-flash-secondary"},{"billing":{"restricted_to":["free","edu","individual_trial","pro","pro_plus","max"],"token_prices":{"batch_size":1000000,"cache_price":7500000000,"input_price":75000000000,"output_price":450000000000}},"capabilities":{"family":"oswe-vscode-modelD","limits":{"max_context_window_tokens":256000,"max_output_tokens":128000,"max_prompt_tokens":128000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"reasoning_effort":["low","medium","high"],"streaming":true,"structured_outputs":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"mai-code-1-flash-tertiary","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"versatile","model_picker_enabled":false,"model_picker_price_category":"low","name":"MAI-Code-1-Flash","object":"model","policy":{"state":"enabled","terms":""},"preview":false,"supported_endpoints":["/responses"],"vendor":"Microsoft","version":"mai-code-1-flash-tertiary"},{"billing":{"restricted_to":["free","edu","individual_trial","pro","pro_plus","max"],"token_prices":{"batch_size":1000000,"cache_price":7500000000,"input_price":75000000000,"output_price":450000000000}},"capabilities":{"family":"oswe-vscode-modelD","limits":{"max_context_window_tokens":256000,"max_output_tokens":128000,"max_prompt_tokens":128000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"reasoning_effort":["low","medium","high"],"streaming":true,"structured_outputs":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"mai-code-1-flash","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"versatile","model_picker_enabled":false,"model_picker_price_category":"low","name":"MAI-Code-1-Flash","object":"model","policy":{"state":"enabled","terms":""},"preview":false,"supported_endpoints":["/responses"],"vendor":"Microsoft","version":"mai-code-1-flash"},{"billing":{"token_prices":{"batch_size":1000000,"cache_price":2500000000,"input_price":25000000000,"output_price":200000000000}},"capabilities":{"family":"gpt-5-mini","limits":{"max_context_window_tokens":264000,"max_output_tokens":64000,"max_prompt_tokens":128000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"reasoning_effort":["low","medium","high"],"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-5-mini","is_chat_default":true,"is_chat_fallback":true,"model_picker_category":"lightweight","model_picker_enabled":true,"model_picker_price_category":"low","name":"GPT-5 mini","object":"model","policy":{"state":"enabled","terms":"Enable access to the latest GPT-5 mini model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5 mini](https://gh.io/copilot-openai)."},"preview":false,"supported_endpoints":["/chat/completions","/responses","ws:/responses"],"vendor":"Azure OpenAI","version":"gpt-5-mini"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4o-mini","limits":{"max_context_window_tokens":128000,"max_output_tokens":4096,"max_prompt_tokens":64000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4o-mini-2024-07-18","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"low","name":"GPT-4o mini","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4o-mini-2024-07-18"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4o","limits":{"max_context_window_tokens":128000,"max_output_tokens":16384,"max_prompt_tokens":64000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4o-2024-11-20","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT-4o","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4o-2024-11-20"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4o","limits":{"max_context_window_tokens":128000,"max_output_tokens":16384,"max_prompt_tokens":64000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4o-2024-08-06","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"high","name":"GPT-4o","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4o-2024-08-06"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"text-embedding-3-small","limits":{"max_inputs":512},"object":"model_capabilities","supports":{"dimensions":true},"tokenizer":"cl100k_base","type":"embeddings"},"id":"text-embedding-3-small","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"name":"Embedding V3 small","object":"model","preview":false,"vendor":"Azure OpenAI","version":"text-embedding-3-small"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"text-embedding-3-small","object":"model_capabilities","supports":{"dimensions":true},"tokenizer":"cl100k_base","type":"embeddings"},"id":"text-embedding-3-small-inference","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"name":"Embedding V3 small (Inference)","object":"model","preview":false,"vendor":"Azure OpenAI","version":"text-embedding-3-small"},{"billing":{"token_prices":{"batch_size":1000000,"cache_price":10000000000,"input_price":100000000000,"output_price":500000000000}},"capabilities":{"family":"claude-haiku-4.5","limits":{"max_context_window_tokens":144000,"max_non_streaming_output_tokens":16000,"max_output_tokens":32000,"max_prompt_tokens":128000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":5,"supported_media_types":["image/jpeg","image/png","image/webp","application/pdf"]}},"object":"model_capabilities","supports":{"max_thinking_budget":32000,"min_thinking_budget":1024,"parallel_tool_calls":true,"streaming":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"claude-haiku-4.5","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"lightweight","model_picker_enabled":true,"model_picker_price_category":"low","name":"Claude Haiku 4.5","object":"model","policy":{"state":"enabled","terms":"Enable access to the latest Claude Haiku 4.5 model from Anthropic. [Learn more about how GitHub Copilot serves Claude Haiku 4.5](https://gh.io/copilot-anthropic)."},"preview":false,"supported_endpoints":["/chat/completions","/v1/messages"],"vendor":"Anthropic","version":"claude-haiku-4.5"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4.1","limits":{"max_context_window_tokens":128000,"max_output_tokens":16384,"max_prompt_tokens":64000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4.1-2025-04-14","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT-4.1","object":"model","policy":{"state":"enabled","terms":"Enable access to the latest GPT-4.1 model from OpenAI. [Learn more about how GitHub Copilot serves GPT-4.1](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task#gpt-41)."},"preview":false,"vendor":"Azure OpenAI","version":"gpt-4.1-2025-04-14"},{"billing":{"token_prices":{"batch_size":1000000,"cache_price":50000000000,"input_price":200000000000,"output_price":800000000000}},"capabilities":{"family":"gpt-4.1","object":"model_capabilities","supports":{"streaming":true},"tokenizer":"o200k_base","type":"completion"},"id":"gpt-41-copilot","is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"versatile","model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT-4.1 Copilot","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-41-copilot"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-3.5-turbo","limits":{"max_context_window_tokens":16384,"max_output_tokens":4096,"max_prompt_tokens":16384},"object":"model_capabilities","supports":{"streaming":true,"tool_calls":true},"tokenizer":"cl100k_base","type":"chat"},"id":"gpt-3.5-turbo-0613","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT 3.5 Turbo","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-3.5-turbo-0613"},{"billing":{"token_prices":{"batch_size":1000000,"cache_price":125000000000,"input_price":250000000000,"output_price":1000000000000}},"capabilities":{"family":"gpt-4","limits":{"max_context_window_tokens":32768,"max_output_tokens":4096,"max_prompt_tokens":32768},"object":"model_capabilities","supports":{"streaming":true,"tool_calls":true},"tokenizer":"cl100k_base","type":"chat"},"id":"gpt-4","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT 4","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4-0613"},{"billing":{"token_prices":{"batch_size":1000000,"cache_price":125000000000,"input_price":250000000000,"output_price":1000000000000}},"capabilities":{"family":"gpt-4","limits":{"max_context_window_tokens":32768,"max_output_tokens":4096,"max_prompt_tokens":32768},"object":"model_capabilities","supports":{"streaming":true,"tool_calls":true},"tokenizer":"cl100k_base","type":"chat"},"id":"gpt-4-0613","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT 4","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4-0613"},{"billing":{"token_prices":{"batch_size":1000000,"cache_price":0,"input_price":1000000000000,"output_price":3000000000000}},"capabilities":{"family":"gpt-4-turbo","limits":{"max_context_window_tokens":128000,"max_output_tokens":4096,"max_prompt_tokens":64000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true},"tokenizer":"cl100k_base","type":"chat"},"id":"gpt-4-0125-preview","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"very_high","name":"GPT 4 Turbo","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4-0125-preview"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4o","limits":{"max_context_window_tokens":128000,"max_output_tokens":4096,"max_prompt_tokens":64000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4o-2024-05-13","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT-4o","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4o-2024-05-13"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4o","limits":{"max_context_window_tokens":128000,"max_output_tokens":4096,"max_prompt_tokens":64000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4-o-preview","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"high","name":"GPT-4o","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4o-2024-05-13"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4.1","limits":{"max_context_window_tokens":128000,"max_output_tokens":16384,"max_prompt_tokens":64000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif","application/pdf"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"structured_outputs":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4.1","info_messages":[{"code":"model_pending_deprecation","message":"GPT-4.1 has a planned deprecation date of 2026-06-01."}],"is_chat_default":false,"is_chat_fallback":false,"model_picker_category":"versatile","model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT-4.1","object":"model","policy":{"state":"enabled","terms":"Enable access to the latest GPT-4.1 model from OpenAI. [Learn more about how GitHub Copilot serves GPT-4.1](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task#gpt-41)."},"preview":false,"vendor":"Azure OpenAI","version":"gpt-4.1-2025-04-14"},{"billing":{"restricted_to":["pro","pro_plus","max","business","enterprise","individual_trial","edu"],"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-3.5-turbo","limits":{"max_context_window_tokens":16384,"max_output_tokens":4096,"max_prompt_tokens":16384},"object":"model_capabilities","supports":{"streaming":true,"tool_calls":true},"tokenizer":"cl100k_base","type":"chat"},"id":"gpt-3.5-turbo","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT 3.5 Turbo","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-3.5-turbo-0613"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4o-mini","limits":{"max_context_window_tokens":128000,"max_output_tokens":4096,"max_prompt_tokens":64000},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4o-mini","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"low","name":"GPT-4o mini","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4o-mini-2024-07-18"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"gpt-4o","limits":{"max_context_window_tokens":128000,"max_output_tokens":4096,"max_prompt_tokens":64000,"vision":{"max_prompt_image_size":3145728,"max_prompt_images":1,"supported_media_types":["image/jpeg","image/png","image/webp","image/gif"]}},"object":"model_capabilities","supports":{"parallel_tool_calls":true,"streaming":true,"tool_calls":true,"vision":true},"tokenizer":"o200k_base","type":"chat"},"id":"gpt-4o","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"model_picker_price_category":"medium","name":"GPT-4o","object":"model","preview":false,"vendor":"Azure OpenAI","version":"gpt-4o-2024-11-20"},{"billing":{"token_prices":{"batch_size":0,"cache_price":0,"input_price":0,"output_price":0}},"capabilities":{"family":"text-embedding-ada-002","limits":{"max_inputs":512},"object":"model_capabilities","supports":{},"tokenizer":"cl100k_base","type":"embeddings"},"id":"text-embedding-ada-002","is_chat_default":false,"is_chat_fallback":false,"model_picker_enabled":false,"name":"Embedding V2 Ada","object":"model","preview":false,"vendor":"Azure OpenAI","version":"text-embedding-3-small"}]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-06-19 16:16:53.025
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[chat] Error processing turn 7ad882d9-c6be-49ab-9988-dceb4bebb253 Error: No model configuration found
+    at D7e.getBestChatModelConfig (C:\snapshot\cls-source\dist\main.js:2181:10649)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async t.resolveModelConfiguration (C:\snapshot\cls-source\dist\main.js:2348:6532)
+    at async ModelPickerUtils.getModelConfiguration (C:\snapshot\cls-source\dist\main.js:2348:9324)
+    at async Q1e.processWithModelAndToolCall (C:\snapshot\cls-source\dist\main.js:3369:17256)
+    at async Q1e.process (C:\snapshot\cls-source\dist\main.js:3369:15737)
+    at async handleConversationCreateChecked (C:\snapshot\cls-source\dist\main.js:3609:10674)
+    at async ir.messageHandler (C:\snapshot\cls-source\dist\main.js:3770:83148)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-06-19 16:16:53.027
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[agenticTurnProcessor] Error in processing turn 7ad882d9-c6be-49ab-9988-dceb4bebb253 Error: No model configuration found
+    at D7e.getBestChatModelConfig (C:\snapshot\cls-source\dist\main.js:2181:10649)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async t.resolveModelConfiguration (C:\snapshot\cls-source\dist\main.js:2348:6532)
+    at async ModelPickerUtils.getModelConfiguration (C:\snapshot\cls-source\dist\main.js:2348:9324)
+    at async Q1e.processWithModelAndToolCall (C:\snapshot\cls-source\dist\main.js:3369:17256)
+    at async Q1e.process (C:\snapshot\cls-source\dist\main.js:3369:15737)
+    at async handleConversationCreateChecked (C:\snapshot\cls-source\dist\main.js:3609:10674)
+    at async ir.messageHandler (C:\snapshot\cls-source\dist\main.js:3770:83148)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:16:53.343
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for standby in 345ms: gpt-5.3-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:16:53.817
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for reserve in 818ms: gpt-5.3-codex
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:17:24.631
+!MESSAGE [Info] Document is null for editor: OS.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:17:24.631
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/OS.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:17:24.702
+!MESSAGE [Info] Document is null for editor: app.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:17:24.703
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/app.java
+!SESSION 2026-06-19 16:17:31.264 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-19 16:17:38.733
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-19 16:17:40.405
+!MESSAGE Logback config file: C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY ch.qos.logback.classic 2 0 2026-06-19 16:17:40.721
+!MESSAGE Exception while setting up logging:C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\.metadata\.plugins\org.eclipse.m2e.logback.configuration
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\.metadata\.plugins\org.eclipse.m2e.logback.configuration
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1153)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.configureLogback(M2ELogbackConfigurator.java:101)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.lambda$0(M2ELogbackConfigurator.java:63)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator$1.run(M2ELogbackConfigurator.java:136)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:17:50.508
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:17:50.512
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-06-19 16:17:50.571
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kdbbu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:17:50.572
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:53.844
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.488.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:53.883
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'none',
+  noProxyCount: 0,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-19 16:17:53.884
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:53.905
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.012
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.013
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 189 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.013
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.014
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 189 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.031
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\kdbbu\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.034
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\kdbbu\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.035
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\kdbbu\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:54.478
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:55.170
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:55.171
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:55.173
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:17:55.215
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-19 16:17:56.730
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:15.934
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for active in 326ms: gpt-5.3-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:15.970
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Rendering fresh global context for conversation/turn bc97e037-2e88-4b9e-9707-ec05e5ff1d74/1a10ab5f-281a-4f0d-a8e7-215a2b0492db
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:16.257
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for standby in 345ms: claude-haiku-4.5
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:16.276
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for reserve in 363ms: gpt-5.3-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:19.336
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request d0b0d8e7-1653-4c46-8e7a-8bee3586bab3 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3296.7191999999995ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:23.616
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:23.765
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:23.870
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn bc97e037-2e88-4b9e-9707-ec05e5ff1d74/1a10ab5f-281a-4f0d-a8e7-215a2b0492db
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:29.447
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 03335f70-6c6f-4cc3-a682-3c4846e89727 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 5694.504199999996ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:31.223
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:31.556
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn bc97e037-2e88-4b9e-9707-ec05e5ff1d74/1a10ab5f-281a-4f0d-a8e7-215a2b0492db
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:33.070
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 8faebc76-5901-4850-aec4-9f0408429e40 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1681.7177999999985ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:35.993
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:36.434
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn bc97e037-2e88-4b9e-9707-ec05e5ff1d74/1a10ab5f-281a-4f0d-a8e7-215a2b0492db
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:37.441
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 30bf3f59-2ac5-4239-8f69-bfd246c63108 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1305.1670000000013ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:38.129
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn bc97e037-2e88-4b9e-9707-ec05e5ff1d74/1a10ab5f-281a-4f0d-a8e7-215a2b0492db
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:40.095
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 970983b0-1499-4ce7-9b36-0d9a2af81e3b at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1995.3695999999982ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:42.250
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:42.251
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:42.286
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'javac -d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\bin" "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\src\OS.java" "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\src\app.java" & java -cp "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\bin" app' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:42.287
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'javac -d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\bin" "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\src\OS.java" "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\src\app.java" & java -cp "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\bin" app' is split into sub-commands: ["javac -d \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\\bin\" \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\\src\\OS.java\" \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\\src\\app.java\"","java -cp \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\\bin\" app"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:48.957
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn bc97e037-2e88-4b9e-9707-ec05e5ff1d74/1a10ab5f-281a-4f0d-a8e7-215a2b0492db
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:51.606
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 5be92ea2-cc1d-467d-a797-2d7850f263f6 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3044.9216000000015ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:52.119
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:52.120
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'java -cp "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\bin" app' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:52.121
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'java -cp "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\bin" app' is split into sub-commands: ["java -cp \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\\bin\" app"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:18:52.122
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:19:21.251
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn bc97e037-2e88-4b9e-9707-ec05e5ff1d74/1a10ab5f-281a-4f0d-a8e7-215a2b0492db
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:19:24.432
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 03144f60-bdce-439a-af49-d837f0bc2702 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3233.2924000000057ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:19:42.671
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 56655 prompt, 2003 completion, 52096 cached (cache rate: 92.0%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:19:43.247
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request b3dcd227-ed89-4506-a46e-8a4755a3a977 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1309.7649999999994ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:19:43.444
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:18.000
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Rendering fresh global context for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:18.914
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for reserve in 1003ms: gpt-5.4-mini
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:18.923
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Fetched auto model for standby in 1012ms: claude-haiku-4.5
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:22.229
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 42f65bda-59ca-4407-8e04-41ddc3e9e0c7 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4193.054400000023ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:22.740
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:23.106
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:25.040
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request d563585d-b778-48a6-b4f0-c0bb9f046de4 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1938.432199999981ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:25.633
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:26.942
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request e12dfa4d-d846-4167-8efa-14651b6c644c at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1437.2689999999711ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:27.183
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:27.276
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:29.705
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 0e4eda6c-f962-4336-a76b-03d4bdfaa9ad at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2517.0765000000247ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:30.767
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:30.768
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39" & javac -d bin src\*.java & java -cp bin app' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:30.770
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39" & javac -d bin src\*.java & java -cp bin app' is split into sub-commands: ["cd /d \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\"","javac -d bin src\\*.java","java -cp bin app"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:30.771
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:34.570
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:36.084
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request a1b7f239-8ebb-4285-b73f-5362733d472b at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2335.560200000007ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:36.778
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:36.779
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:36.779
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39" && dir src && javac -d bin src\app.java src\OS.java && java -cp bin app' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:36.780
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39" && dir src && javac -d bin src\app.java src\OS.java && java -cp bin app' is split into sub-commands: ["cd /d \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\"","dir src","javac -d bin src\\app.java src\\OS.java","java -cp bin app"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:48.552
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:54.969
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request bc54ecb5-1b5e-4fad-b322-4485bfb84b15 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 6435.979899999977ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:23:55.839
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:12.919
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 032d6ffd-b104-4396-ad21-30b2397d8d54 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 17106.82440000004ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:14.295
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:14.381
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:23.301
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request c6713128-e094-491a-8ba0-7f76ccd7f607 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 8935.015799999994ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:24.248
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:24.248
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "%TEMP%" && mkdir copilot_case_test && cd copilot_case_test && (echo public class App { public static void main(String[] args){} }) > app.java && javac app.java' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:24.249
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "%TEMP%" && mkdir copilot_case_test && cd copilot_case_test && (echo public class App { public static void main(String[] args){} }) > app.java && javac app.java' is split into sub-commands: ["cd /d \"%TEMP%\"","mkdir copilot_case_test","cd copilot_case_test","echo public class App { public static void main","javac app.java"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:24.250
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:30.909
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:33.171
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request f4c3e079-1fb6-47b9-9107-746ba1dbceab at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2260.118699999992ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:34.006
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:34.007
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "%TEMP%" && if not exist copilot_case_test mkdir copilot_case_test && cd copilot_case_test && echo public class App ^{ public static void main(String[] args) ^{^} ^} > app.java && javac app.java' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:34.007
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "%TEMP%" && if not exist copilot_case_test mkdir copilot_case_test && cd copilot_case_test && echo public class App ^{ public static void main(String[] args) ^{^} ^} > app.java && javac app.java' is split into sub-commands: ["cd /d \"%TEMP%\"","not exist copilot_case_test mkdir copilot_case_test","cd copilot_case_test","echo public class App ^{ public static void main","javac app.java"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:34.008
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:36.312
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:39.199
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request a865b14e-0bf7-47a4-9dcb-9388dbe4291a at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2890.7459999999846ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:39.583
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:41.878
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request b8e70d13-5106-4b9a-ad54-b8c66bd59a99 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2375.5ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:42.727
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:43.025
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:47.180
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 145a4255-5b55-4f55-b6cd-13e961bd2757 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4298.381200000003ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:48.157
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:48.158
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\src" && ren app.java app_tmp.java && ren app_tmp.java App.java && dir' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:48.159
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:48.160
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39\src" && ren app.java app_tmp.java && ren app_tmp.java App.java && dir' is split into sub-commands: ["cd /d \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\\src\"","ren app.java app_tmp.java","ren app_tmp.java App.java","dir"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:49.426
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:51.176
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request dead528c-f7c1-4d86-8b6b-94bd9a0d7619 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1753.2250999999815ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:51.417
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:51.542
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:54.243
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request aa332c8d-f216-4062-bfcc-721bc09e90da at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2741.945400000026ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:54.790
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:54.843
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 510 for file:///c%3A/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/App.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:56.652
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request b0bf650d-17cb-4bdb-8b3d-2c2a2a634d99 at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 1883.7597999999998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:57.131
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:57.195
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:24:59.278
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 4923a1d4-acb7-4f3f-8920-4fcd62afe0d6 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2106.777000000002ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:00.194
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:00.327
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:03.930
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request c99cfcd5-0304-4364-af59-1cf83bc75ecd at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3638.940500000026ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:04.243
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:04.362
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:06.248
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 59eb52b9-5eb2-4520-9099-bd2157039076 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2007.7259000000195ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:07.451
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:07.628
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:09.708
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 51c4ca44-4d9f-43d4-9086-6036f42ab9da at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2117.494000000006ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:11.151
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:11.444
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:13.284
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 398d2f32-84e1-4d88-81d9-56ec18c4ce7f at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2001.045700000017ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:13.961
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39" && javac -d bin src\App.java src\OS.java && java -cp bin App' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:13.962
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d "C:\Users\kdbbu\OneDrive\Documents\GitHub\Javascript_Peices\Tutorial 39" && javac -d bin src\App.java src\OS.java && java -cp bin App' is split into sub-commands: ["cd /d \"C:\\Users\\kdbbu\\OneDrive\\Documents\\GitHub\\Javascript_Peices\\Tutorial 39\"","javac -d bin src\\App.java src\\OS.java","java -cp bin App"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:13.963
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:13.964
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:16.086
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:20.542
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request e09b410d-9fc4-4e04-bbea-0c04715e0b8e at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4465.022699999972ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:21.487
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:32.345
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 91387346-e374-47be-8c77-1880a0d3cfe8 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 10889.350600000005ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:33.146
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:41.142
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 8bf6b0d9-d72f-4a05-a5e5-7464657fe932 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 8052.892899999977ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:43.133
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:43.258
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:45.818
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 08cc13ef-b0a2-4c9f-8b3d-d6bc83725fc8 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2599.4489000000176ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:47.384
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:47.529
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:25:50.565
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/App.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:51.821
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 087a85cd-8f00-4c8b-8dc6-a7a793f1f13b at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4334.640100000019ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:52.298
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 3002df2c-90d2-48ba-8c99-fe33ac6ce44a/eeb8ea79-9b1d-4d6a-9896-89ed080b02e8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:55.041
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request cefa73f5-fe75-46f4-9146-24c7acbee19e at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2896.5327999999863ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:56.019
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:25:56.385
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 271493 prompt, 6016 completion, 259328 cached (cache rate: 95.5%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:27:00.631
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request cfad015b-0762-4527-ad42-756b84a1d8b7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 678.3955999999307ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-19 16:27:00.732
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:31:46.793
+!MESSAGE [Info] Document is null for editor: app.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:31:46.794
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/App.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:31:46.830
+!MESSAGE [Info] Document is null for editor: OS.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-19 16:31:46.831
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/kdbbu/OneDrive/Documents/GitHub/Javascript_Peices/Tutorial%2039/src/OS.java
